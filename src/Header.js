@@ -1,6 +1,6 @@
 function Header() {
     return(
-        <h1>Header</h1>
+        <img src="./images/ProfilePic.png" alt="Profile Pic" />
     )
 }
 
