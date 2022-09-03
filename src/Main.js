@@ -6,8 +6,10 @@ function Main() {
                 <h3 className="main--title">Frontend Developer</h3>
                 <a href="https://jacksondynamics.github.io/MyPortfolio/">jacksondynamics.MyPortfolio</a>
             </div>
-            <button id="email">Email</button>
-            <button id="linkedIn">LinkedIn</button>
+            <div id="buttons">
+                <button className="email"><i className="fa-sharp fa-solid fa-envelope"></i>Email</button>
+                <button className="linkedIn"><i className="fa-brands fa-linkedin"></i>LinkedIn</button>
+            </div>
             <div id="primary--info">
                 <div className="about">
                     <h3>About</h3>

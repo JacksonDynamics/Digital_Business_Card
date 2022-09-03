@@ -49,9 +49,32 @@ a {
     margin-bottom: 15px;
 }
 
-#email, #linkedIn {
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+
+.linkedIn {
+    background-color: #5093E2;
+    color: #ffffff;
+}
+
+.fa-linkedin, .fa-envelope {
+    padding: 0 10px;
+}
+
+.email, .linkedIn {
+    width: 115px;
+    height: 34px;
     margin-top: 15px;
-    border-radius: 5px
+    padding: 9px 13px 9px 11px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #primary--info {
