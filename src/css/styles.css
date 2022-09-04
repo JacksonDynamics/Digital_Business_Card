@@ -66,8 +66,12 @@ img {
     color: #ffffff;
 }
 
+button {
+    text-decoration: none;
+}
+
 .fa-linkedin, .fa-github {
-    padding: 0 8px;
+    padding: 0 8px 0 0;
 }
 
 .github:hover, .linkedIn:hover {
@@ -85,6 +89,7 @@ img {
     justify-content: center;
     align-items: center;    
 }
+
 
 #primary--info {
     text-align:left;
