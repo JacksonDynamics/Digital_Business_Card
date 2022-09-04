@@ -40,20 +40,25 @@ img {
     line-height: 15px;
     font-size: 1.3rem;
     font-weight: 400;
-    margin: 0 0 9px;
+    margin: 10px 0 12px;
 }
 
-a {
+.portfolio:visited {
+    color: white;
+}
+
+.portfolio {
     color: #F5F5F5;
     text-decoration: none;
-    margin-bottom: 15px;
+    margin-top: 5px;
+    font-size: 1.2rem;
 }
 
 #buttons {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid white; */
+    margin: 5px 0 33px;
 }
 
 .linkedIn {
@@ -61,28 +66,28 @@ a {
     color: #ffffff;
 }
 
-.fa-linkedin, .fa-envelope {
-    padding: 0 10px;
+.fa-linkedin, .fa-github {
+    padding: 0 8px;
 }
 
-.email, .linkedIn {
+.github:hover, .linkedIn:hover {
+    cursor: pointer;
+}
+
+.github, .linkedIn {
     width: 115px;
     height: 34px;
     margin-top: 15px;
     padding: 9px 13px 9px 11px;
-    border: 1px solid #D1D5DB;
+    border: none;
     border-radius: 6px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
 }
 
 #primary--info {
     text-align:left;
-}
-
-h3 {
-    font-size: 1.6rem;
 }
 
 .main--about, .main--interests {
@@ -96,8 +101,12 @@ h3 {
     background-color: #161619;
     height: 64px;
     border-radius: 0 0 10px 10px;
-    color: #918E9B;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    color: #918E9B;
+}
+
+a:visited {
+    color: #918E9B;
 }

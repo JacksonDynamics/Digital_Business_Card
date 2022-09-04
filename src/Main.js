@@ -4,11 +4,13 @@ function Main() {
             <div className="main--header">
                 <h1 className="main--name">Brendon Jackson</h1>
                 <h3 className="main--title">Frontend Developer</h3>
-                <a href="https://jacksondynamics.github.io/MyPortfolio/">jacksondynamics.MyPortfolio</a>
+                <a className="portfolio" href="https://jacksondynamics.github.io/MyPortfolio/">jacksondynamics.MyPortfolio</a>
             </div>
             <div id="buttons">
-                <button className="email"><i className="fa-sharp fa-solid fa-envelope"></i>Email</button>
-                <button className="linkedIn"><i className="fa-brands fa-linkedin"></i>LinkedIn</button>
+                <a href='https://github.com/JacksonDynamics'>
+                <button className="github"><i className="fa-brands fa-solid fa-github"></i>Github</button></a>
+
+                <a href='https://www.linkedin.com/in/brendon-jackson/' ><button className="linkedIn"><i className="fa-brands fa-linkedin"></i>LinkedIn</button></a>
             </div>
             <div id="primary--info">
                 <div className="about">
