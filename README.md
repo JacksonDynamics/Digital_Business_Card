@@ -2,7 +2,6 @@
 
 <img src="ScreenShot.png" width="500px" />
 
-<img src="ScreenShot2.png" width="500px" />
 
 #### A digital business card, complete with a basic layout, profile pic, hyperlinks to other sites I've created and added to, like my LinkedIn, Github, Portfolio page, and even my Blog page with DEV. This was all created with HTML/CSS, JavaScript, and React.
 
